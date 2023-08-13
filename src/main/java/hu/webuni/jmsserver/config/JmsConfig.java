@@ -1,5 +1,8 @@
 package hu.webuni.jmsserver.config;
 
+import org.apache.activemq.artemis.api.core.TransportConfiguration;
+import org.apache.activemq.artemis.core.remoting.impl.netty.NettyAcceptorFactory;
+import org.apache.activemq.artemis.core.remoting.impl.netty.NettyConnectorFactory;
 import org.springframework.boot.autoconfigure.jms.artemis.ArtemisConfigurationCustomizer;
 import org.springframework.context.annotation.Configuration;
 
